@@ -1,0 +1,10 @@
+---
+- hosts: all
+  roles:
+    - base_rpm
+    #- clickhouse
+    #- mysql
+    #- git
+    #- gitlab
+    #- jenkis
+    #- gitlab

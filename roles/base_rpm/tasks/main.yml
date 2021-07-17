@@ -1,0 +1,55 @@
+---
+- name: Update all rpm
+  yum:
+    name: '*'
+    state: latest
+    #excluse: kernel*,foo*
+
+- name: Install epel-release
+  yum:
+    name: epel-release
+    state: latest
+
+- name: Install ius-release
+  yum:
+    name: ius-release
+    state: latest
+- name: Install remi-release
+  yum:
+    name: remi-release
+    state: latest
+
+- name: Install tmux
+  yum:
+    name: tmux2
+    state: latest
+
+- name: Install lrzsz
+  yum:
+    name: lrzsz
+    state: latest
+
+- name: Install sshpass
+  yum:
+    name: sshpass
+    state: latest
+
+- name: Install htop
+  yum:
+    name: htop
+    state: latest
+
+- name: Install iftop
+  yum:
+    name: iftop
+    state: latest
+
+- name: Install iotop
+  yum:
+    name: iotop
+    state: latest
+
+- name: Install
+  yum:
+    name:
+    state: latest
